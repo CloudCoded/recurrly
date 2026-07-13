@@ -53,8 +53,8 @@ const SubscriptionCard = ({
       {expanded && (
         <View className="sub-bdy">
           <View className="sub-details">
-            <View sub-row>
-              <View sub-row-copy>
+            <View className="sub-row">
+              <View className="sub-row-copy">
                 <Text className="sub-label">Payment:</Text>
                 <Text
                   className="sub-value"
@@ -65,8 +65,8 @@ const SubscriptionCard = ({
                 </Text>
               </View>
             </View>
-            <View sub-row>
-              <View sub-row-copy>
+            <View className="sub-row">
+              <View className="sub-row-copy">
                 <Text className="sub-label">Category:</Text>
                 <Text
                   className="sub-value"
@@ -78,8 +78,8 @@ const SubscriptionCard = ({
               </View>
             </View>
 
-            <View sub-row>
-              <View sub-row-copy>
+            <View className="sub-row">
+              <View className="sub-row-copy">
                 <Text className="sub-label">Started:</Text>
                 <Text
                   className="sub-value"
@@ -91,8 +91,8 @@ const SubscriptionCard = ({
               </View>
             </View>
 
-            <View sub-row>
-              <View sub-row-copy>
+            <View className="sub-row">
+              <View className="sub-row-copy">
                 <Text className="sub-label">Renewal date:</Text>
                 <Text
                   className="sub-value"
@@ -104,8 +104,8 @@ const SubscriptionCard = ({
               </View>
             </View>
 
-            <View sub-row>
-              <View sub-row-copy>
+            <View className="sub-row">
+              <View className="sub-row-copy">
                 <Text className="sub-label">Status:</Text>
                 <Text
                   className="sub-value"
